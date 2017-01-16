@@ -78,7 +78,7 @@ border-radius:5px;
 }
 
 label{
-
+width:150px;
 }
 
 button{
@@ -87,7 +87,6 @@ width:100%;
 padding:20px;
 color:white;
 font-size:1.5em;
-font-style:bold;
 border-radius:5px;
 }
 
@@ -102,11 +101,17 @@ background-color:#d69671;
 }
 
 
+.faded{
+color:#b6bac1;
+
+}
 
 
 
 
-@media(min-width:769px){
+
+
+@media(min-width:768px){
 
 .header{
 text-align:center;
@@ -166,6 +171,27 @@ background-color:#0a89d8;
 color:white;
 background-color:#07466d;
 }
+
+
+.faint{
+
+float:left;
+
+
+}
+
+select{
+margin-left:75px;
+}
+
+
+
+
+
+
+
+
+
 
 }
 
